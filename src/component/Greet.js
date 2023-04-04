@@ -8,5 +8,8 @@ import React from 'react'
 //   }
  
 // arrow function
-export const Mycomponent = () => <h1>Hello Viral</h1>
+export const Mycomponent = (props) => {
+  console.log(props)
+return <h1>Hello {props.name} a.k.a {props.heroName}</h1>
+}
  // export default Greet

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Mycomponent} from './component/Greet'
 import Welcome from './component/Welcome';
+import Hello from './component/hello';
 function App() {
   return (
     <div className="App">
@@ -22,8 +23,9 @@ function App() {
      
       <section>
         <h1>Amazing scientists</h1>
-        <Mycomponent />
+        <Mycomponent name = "mango" heroName="Batman"/>
         <Welcome/>
+        <Hello />
       </section>
     
 
