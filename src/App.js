@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './component/Greet'
+import {Mycomponent} from './component/Greet'
+import Welcome from './component/Welcome';
 function App() {
   return (
     <div className="App">
@@ -21,9 +22,8 @@ function App() {
      
       <section>
         <h1>Amazing scientists</h1>
-        <Greet />
-        <Greet />
-        <Greet />
+        <Mycomponent />
+        <Welcome/>
       </section>
     
 
