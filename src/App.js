@@ -3,6 +3,7 @@ import './App.css';
 import {Mycomponent} from './component/Greet'
 import Welcome from './component/Welcome';
 import Hello from './component/hello';
+import Message from './component/message';
 function App() {
   return (
     <div className="App">
@@ -22,17 +23,19 @@ function App() {
       </header> */}
      
       <section>
+      <Message/>
        {/* <h1>Amazing scientists</h1> */}
-        <Mycomponent name = "mango" heroName="Batman">
+        {/* <Mycomponent name = "mango" heroName="Batman">
           <p>This is children props</p>
         </Mycomponent>
         <Mycomponent name = "banana" heroName="protein">
           <button>Action</button>
         </Mycomponent>
-        <Mycomponent name = "sprout" heroName="protein"/>
+        <Mycomponent name = "sprout" heroName="protein"/> */}
 
         {/* <Welcome/>
         <Hello /> */}
+        
       </section>
     
 
