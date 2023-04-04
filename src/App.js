@@ -22,10 +22,17 @@ function App() {
       </header> */}
      
       <section>
-        <h1>Amazing scientists</h1>
-        <Mycomponent name = "mango" heroName="Batman"/>
-        <Welcome/>
-        <Hello />
+       {/* <h1>Amazing scientists</h1> */}
+        <Mycomponent name = "mango" heroName="Batman">
+          <p>This is children props</p>
+        </Mycomponent>
+        <Mycomponent name = "banana" heroName="protein">
+          <button>Action</button>
+        </Mycomponent>
+        <Mycomponent name = "sprout" heroName="protein"/>
+
+        {/* <Welcome/>
+        <Hello /> */}
       </section>
     
 
