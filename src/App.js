@@ -4,6 +4,7 @@ import {Mycomponent} from './component/Greet'
 import Welcome from './component/Welcome';
 import Hello from './component/hello';
 import Message from './component/message';
+import Counter from './component/counter';
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
      
       <section>
       <Message/>
+      <Counter/>
        {/* <h1>Amazing scientists</h1> */}
         {/* <Mycomponent name = "mango" heroName="Batman">
           <p>This is children props</p>
