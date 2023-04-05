@@ -5,6 +5,7 @@ import Welcome from './component/Welcome';
 import Hello from './component/hello';
 import Message from './component/message';
 import Counter from './component/counter';
+
 function App() {
   return (
     <div className="App">
@@ -24,19 +25,20 @@ function App() {
       </header> */}
      
       <section>
-      <Message/>
-      <Counter/>
+      {/* <Message/>
+      <Counter/> */}
        {/* <h1>Amazing scientists</h1> */}
-        {/* <Mycomponent name = "mango" heroName="Batman">
-          <p>This is children props</p>
-        </Mycomponent>
-        <Mycomponent name = "banana" heroName="protein">
+        <Mycomponent name = "mango" heroName="Batman"/>
+          {/* <p>This is children props</p> */}
+        {/* </Mycomponent> */}
+      {/* <Mycomponent name = "banana" heroName="protein"> */}
           <button>Action</button>
-        </Mycomponent>
-        <Mycomponent name = "sprout" heroName="protein"/> */}
+        {/* </Mycomponent> */}
+        {/* <Mycomponent name = "sprout" heroName="protein"/> */} 
 
-        {/* <Welcome/>
-        <Hello /> */}
+        <Welcome name = "viral" heroName="Captain"/>
+
+        {/* <Hello />  */}
         
       </section>
     
