@@ -3,7 +3,8 @@ import React from 'react'
 function ChildComponent(props) {
   return (
     <div>
-        <button onClick={props.greetHandler}>Greet Parent</button>
+        {/* Arrow function syntax is simplest way to pass parameters child component to parent components */}
+        <button onClick={() => props.greetHandler('child')}>Greet Parent</button>
     </div>
   )
 }
