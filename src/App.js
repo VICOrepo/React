@@ -11,15 +11,23 @@ import EventBind from './component/EventBind';
 import ParentComponent from './component/ParentComponent';
 import UserGreeting from './component/UserGreeting';
 import NameList from './component/NameList';
-
+import StyleSheet from './component/StyleSheet';
+import InlineStyle from './component/InlineStyle';
+import './appStyle.css'
+import styles from './appStyles.module.css'
 
 
 function App() {
   return (
     <div className="App">
       <br/>
+      <h1 className='error'>Error</h1>
+      {/* <br/> */}
+      <h1 className={styles.success}>Success</h1>
+      <InlineStyle/>
+    {/* <StyleSheet primary = {true}/> */}
     {/* <UserGreeting/> */}
-    <NameList/>
+    {/* <NameList/> */}
      {/* <ParentComponent/> */}
      
       <section>
